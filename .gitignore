@@ -1,0 +1,10 @@
+.vscode
+.mypy_cache
+
+examples/backup
+handout
+*.thmx
+
+*.pptx
+exercises/solutions
+examples/
