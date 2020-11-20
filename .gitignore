@@ -1,10 +1,8 @@
 .vscode
 .mypy_cache
+.ipynb_checkpoints
 
-examples/backup
 handout
 *.thmx
 
 *.pptx
-exercises/solutions
-examples/
