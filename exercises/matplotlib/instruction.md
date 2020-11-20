@@ -1,12 +1,12 @@
-# Numpy exercise
+# Matplotlib exercise
 
 ## Generate data
 
-Generate two array of 10000 random uniform number with `np.random.randn`, representing `x` and `y` coordinate of random points respectively.
+Generate two arrays of 10000 random normally distributed number with `np.random.randn`, representing `x` and `y` coordinate of random points respectively.
 
 ## Figure
 
-Create a figure with 3 subplots (3 lines and 1 column) and shared y-axis.
+Create a figure with 2 subplots (2 lines and 1 column) and shared y-axis.
 
 ## 1D subplot
 
