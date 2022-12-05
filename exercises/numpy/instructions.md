@@ -10,9 +10,9 @@ Read the positions from `positions.npy` using `np.load`. The data has shape `(n_
 
 Compute the average trajectory.
 
-Find the most average trajectory in the dataset. To do that find the trajectory that has the lowest euclidean distance to the average.
+Find the most average trajectory in the dataset. To do that find the trajectory that has the lowest Euclidean distance to the average.
 
-`np.argmin` gives you the index of the minimum element in an array and may prove usefull.
+`np.argmin` gives you the index of the minimum element in an array and may prove useful.
 
 ## Center of mass
 

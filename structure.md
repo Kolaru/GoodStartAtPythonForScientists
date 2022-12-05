@@ -58,6 +58,10 @@ Make sure everything work for everyone
    1. Multidimensional indices
    2. Adding dimensions to broadcast
    3. Masking
+5. Loading data
+   1. Working directory `os.pwd()`
+   2. `np.loadtxt` and `np.savetxt`
+   3. `np.load` and `np.save`
 
 ### Exercise
 

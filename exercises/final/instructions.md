@@ -2,7 +2,7 @@
 
 ## Load data
 
-Load the data `data.txt` and plot it with `pyplot.imshow`. The data is set in a 1 x 1 box.  Use `extent = (0, 1, 1, 0)` to have correct orientatin of data.
+Load the data `data.txt` and plot it with `pyplot.imshow`. The data is set in a 1 x 1 box.  Use `extent = (0, 1, 1, 0)` to have correct orientation of data.
 
 ## Grid
 
