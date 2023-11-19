@@ -1,19 +1,20 @@
-# A Good Start at Python for Scientists
+python# A Good Start at Python for Scientists
 
 
 ## Not drowning in the ocean of Python ressources - Presentation
 
-## The many ways of running Python code
+## Installation
 
-Make sure everything work for everyone
+1. Make sure everything works for everyone.
+2. The dreaded `PATH`.
+
+## The many ways of running Python code
 
 1. Interactive - Demo
    - REPL (Read–eval–print loop) aka Python shell
       - Easiest way to test an installation
       - Gives info about version
    - Ipython terminal
-   - VSCode interactive windows
-     - ctrl + maj + P for list of command in VSCode
 2. Run scripts - Demo
    - Terminal
    - VSCode
@@ -39,7 +40,7 @@ Make sure everything work for everyone
    - How to read a function signature - Presentation
    - Access documentation - Demo
       - Websites
-      - In Ipython
+      - In notebooks
       - In VSCode
 
 ## Numpy: think like a vector
@@ -54,14 +55,14 @@ Make sure everything work for everyone
    6. `ndarray.shape`
 2. Elementwise operations
 3. Reduction operations
-4. Indexing
-   1. Multidimensional indices
-   2. Adding dimensions to broadcast
-   3. Masking
-5. Loading data
+4. Loading data
    1. Working directory `os.pwd()`
    2. `np.loadtxt` and `np.savetxt`
    3. `np.load` and `np.save`
+5. Indexing
+   1. Multidimensional indices
+   2. Adding dimensions to broadcast
+   3. Masking
 
 ### Exercise
 
@@ -71,19 +72,29 @@ Make sure everything work for everyone
 1. The two ways of plotting
    1. Pyplot
    2. Figure and axes with `plt.subplots`
-2. `plt.show` and common problems with interactive python
-3. Customize your plots
+2. Customize your plots
    1. Keyword arguments
    2. Figures and axes through `ax.update`
-   3. Global parameter with `matplotlib.rc`
-4. `fig.savefig`
+3. `fig.savefig`
 
 ### Exercise
+
+## Classes
+### Theory - Demo
+
+1. Classes are structure
+   1. With data
+   2. With methods (that can refer to itself)
+   3. With a state
+2. Extensive use of classes (Object Oriented Programming) is a controversial subject
+   1. Classes can be handy
+   2. Classes can be avoided
 
 ## Scipy: add some science - Demo
 
 1. Passing a function to a function
 2. Pay attention to return types
+
 
 ### Exercise
 

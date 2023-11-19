@@ -2,15 +2,14 @@
 
 ## Load data
 
-Load the data `data.txt` and plot it with `pyplot.imshow`. The data is set in a 1 x 1 box.  Use `extent = (0, 1, 1, 0)` to have correct orientation of data.
-
-## Grid
-
-Use `numpy.meshgrid` to create `x` and `y` components of each pixel in the image. Plot each points over the image with `pyplot.scatter` to make sure it is correctly aligned.
+Load the data `data.txt`, which represents an image of many blobs, and plot it with `pyplot.imshow`. The data is set in a 1 x 1 box.  Use `extent = (0, 1, 1, 0)` to have correct orientation of data.
 
 ## Thresholding
 
-Use `skimage.filters.threshold_otsu` to binarize the image. Plot the resulting binary image to verify each blob is indeed separated from the other.
+Use `skimage.filters.threshold_otsu` to get the bet threshold for the image. It means that by setting every value under the threshold to zero, and every value above the threshold to one, you get a binary imge that separate the blobs.
+
+Plot the resulting binary image to verify each blob is indeed separated from the other.
+
 
 ## Labeling
 
