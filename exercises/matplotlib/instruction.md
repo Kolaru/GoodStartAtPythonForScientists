@@ -6,7 +6,7 @@ Generate two arrays of 10000 random normally distributed number with `np.random.
 
 ## Figure
 
-Create a figure with 2 subplots (2 lines and 1 column) and shared y-axis.
+Create a figure with 2 subplots (2 lines and 1 column) and shared y-axis (`sharey` option for `plt.subplots`).
 
 ## 1D subplot
 
@@ -19,7 +19,7 @@ Over it plot the Gaussian distribution `1/sqrt(2*pi) * exp(-x**2 / 2)`. The two 
 
 ## 2D subplot
 
-Get the value of the 2D histogram using `np.histrogram2D`. Be careful as the function returns 3 values, we hare mainly interested in the first.
+Get the value of the 2D histogram using `np.histrogram2D`. Be careful as the function returns 3 values, we are only interested in the first.
 
 Plot the result with `ax.imshow`, with the following property:
     - Aspect ratio set to `"auto"` (keyword `"aspect"`)
@@ -27,4 +27,4 @@ Plot the result with `ax.imshow`, with the following property:
 
 ## Labels and legend
 
-Set all the labels and a legend in the first plot.
+Set all the labels and add a legend to the first plot.

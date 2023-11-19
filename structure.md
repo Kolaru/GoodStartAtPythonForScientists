@@ -1,5 +1,4 @@
-python# A Good Start at Python for Scientists
-
+# A Good Start at Python for Scientists
 
 ## Not drowning in the ocean of Python ressources - Presentation
 
