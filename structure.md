@@ -17,7 +17,6 @@
 2. Run scripts - Demo
    - Terminal
    - VSCode
-   - Part of a script in VSCode
 3. Jupyter notebooks - Demo
    - Standard
    - VSCode
@@ -55,7 +54,7 @@
 2. Elementwise operations
 3. Reduction operations
 4. Loading data
-   1. Working directory `os.pwd()`
+   1. Working directory `os.getcwd()`
    2. `np.loadtxt` and `np.savetxt`
    3. `np.load` and `np.save`
 5. Indexing
@@ -78,6 +77,13 @@
 
 ### Exercise
 
+## Scipy: add some science - Demo
+
+1. Passing a function to a function
+2. Pay attention to return types
+
+### Exercise
+
 ## Classes
 ### Theory - Demo
 
@@ -88,13 +94,3 @@
 2. Extensive use of classes (Object Oriented Programming) is a controversial subject
    1. Classes can be handy
    2. Classes can be avoided
-
-## Scipy: add some science - Demo
-
-1. Passing a function to a function
-2. Pay attention to return types
-
-
-### Exercise
-
-## Final exercise: A guided tour through a complex example using several libraries

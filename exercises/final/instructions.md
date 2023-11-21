@@ -13,7 +13,7 @@ Plot the resulting binary image to verify each blob is indeed separated from the
 
 ## Labeling
 
-Use `scipy.ndimage.label` to give a label to each blob. Then use the labels to get the average position of each blobs, using the grid of points you defined in step 2.
+Use `scipy.ndimage.label` to give a label to each blob. Then use the labels to get the average position of each blobs.
 
 ## Pair correlation
 
